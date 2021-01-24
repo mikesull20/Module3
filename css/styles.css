@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+#header-nav {
+    background-color: lightgrey;   
+    border: solid black 3px;
+    margin-bottom: 0;
+}
+
+.text-center {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 38px;
+    font-weight: bold;
+    position: relative;
+    margin-top: 55px;
+}
+
+#text {       
+    margin: 10px;
+    background-color: lightgrey;
+    font-family:'Times New Roman', Times, serif;
+    position: relative;
+    border: 2px solid black;
+}
+
+.navbar-brand {       
+    padding-left: 0;  
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+    background-color: black;
+  }
+
+.navbar-brand h1 {    
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    color: black;   
+    margin-top: 0;
+    margin-left: 15px;
+    margin-bottom: 0;
+}
+
+#chicken {
+    margin-top: 5 px;
+}
+
+#beef {
+    margin-top: 5 px;
+}
+
+#sushi {
+    margin-top: 5 px;
+}
+
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    text-align: center;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 150;
+    background-color: white;
+    border: 2px solid black;
+}
+
+#nav-list a:hover {
+    background-color: darkslategrey;   
+}
+
+.navbar-default .navbar-collapse {
+	margin-top:0px;
+	border: 0px;
+	list-style-type: none;
+}  
